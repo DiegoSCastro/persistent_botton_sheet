@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:persistent_botton_sheet/features/map/components/fixed_bottom_sheet.dart';
 
 class MapScreen extends StatelessWidget {
   const MapScreen({Key? key}) : super(key: key);
@@ -16,6 +17,9 @@ class MapScreen extends StatelessWidget {
               'assets/images/img1.jpg',
               fit: BoxFit.cover,
             ),
+          ),
+          FixedBottomSheet(
+            size: size,
           ),
         ],
       ),
